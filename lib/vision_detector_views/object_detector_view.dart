@@ -13,7 +13,7 @@ class ObjectDetectorView extends StatefulWidget {
 
 class _ObjectDetectorView extends State<ObjectDetectorView> {
   ObjectDetector? _objectDetector;
-  DetectionMode _mode = DetectionMode.stream;
+  DetectionMode _mode = DetectionMode.single;
   bool _canProcess = false;
   bool _isBusy = false;
   CustomPaint? _customPaint;

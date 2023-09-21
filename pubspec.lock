@@ -75,6 +75,22 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+  google_mlkit_commons:
+    dependency: transitive
+    description:
+      name: google_mlkit_commons
+      sha256: "42173a8ba89f386486cc5b8249e84da4a4b861daa70498373627d985eb418689"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.0"
+  google_mlkit_object_detection:
+    dependency: "direct main"
+    description:
+      name: google_mlkit_object_detection
+      sha256: "52b11c335cbf45da561127de586e1ab32ba5526eb04d7a3a683c787279a47153"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.10.0"
   lints:
     dependency: transitive
     description:
@@ -186,3 +202,4 @@ packages:
     version: "0.1.4-beta"
 sdks:
   dart: ">=3.1.1 <4.0.0"
+  flutter: ">=2.5.0"

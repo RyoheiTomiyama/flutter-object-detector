@@ -23,6 +23,8 @@ class _ObjectDetectorView extends State<ObjectDetectorView> {
   final _options = {
     'default': '',
     'object_custom': 'object_labeler.tflite',
+    // https://hub.ultralytics.com/models/4iiEIb7peyXxmzwkUbVN?tab=deploy
+    'yolov8s': 'yolov8s.tflite',
     'fruits': 'object_labeler_fruits.tflite',
     'flowers': 'object_labeler_flowers.tflite',
     'birds': 'lite-model_aiy_vision_classifier_birds_V1_3.tflite',
